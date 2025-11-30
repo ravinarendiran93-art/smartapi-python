@@ -9,4 +9,4 @@ def on_message(message):
 
 ws.on_message = on_message
 ws.connect()
-ws.subscribe(["NSE|RELIANCE|EQ"])  # example symbol format depends on SmartAPI
+ws.subscribe(["NSE|TATA motors|EQ"])  # example symbol format depends on SmartAPI
